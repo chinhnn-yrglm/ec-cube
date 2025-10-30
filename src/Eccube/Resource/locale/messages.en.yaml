@@ -164,6 +164,19 @@ front.contact.complete_message__title: Your inquiry has been sent.
 front.contact.complete_message__body: In case you do not receive our receipt confirmation email, your inquiry may not be received. Please contact us by inquiry form once again, or by phone. Sorry for the inconvenience.
 
 #------------------------------------------------------------------------------------
+# Inquiry
+#------------------------------------------------------------------------------------
+front.inquiry.title: Inquiry Form
+front.inquiry.inquiry_notice: |
+  Depending on the content, it may take some time for us to respond.
+  Also, please note that inquiries made on holidays will be responded to on the next business day or later.
+front.inquiry.order_notice: When making inquiries about your order, please be sure to include your order number.
+front.inquiry.inquiry_content: Inquiry details
+front.inquiry.complete_title: Inquiry (completed)
+front.inquiry.complete_message__title: Your inquiry has been sent successfully
+front.inquiry.complete_message__body: If you do not receive a confirmation email, there may be a problem, so we apologize for the inconvenience, but please contact us again or contact us by phone.
+
+#------------------------------------------------------------------------------------
 # Sign up
 #------------------------------------------------------------------------------------
 
