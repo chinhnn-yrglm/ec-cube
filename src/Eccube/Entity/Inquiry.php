@@ -45,14 +45,14 @@ if (!class_exists(Inquiry::class)) {
         /**
          * @var string
          *
-         * @ORM\Column(name="name01", type="string", length=255)
+         * @ORM\Column(name="name01", type="string", length=255, nullable=true)
          */
         private $name01;
 
         /**
          * @var string
          *
-         * @ORM\Column(name="name02", type="string", length=255)
+         * @ORM\Column(name="name02", type="string", length=255, nullable=true)
          */
         private $name02;
 
@@ -80,14 +80,14 @@ if (!class_exists(Inquiry::class)) {
         /**
          * @var string|null
          *
-         * @ORM\Column(name="phone_number", type="string", length=14, nullable=true)
+         * @ORM\Column(name="phone_number", type="string", length=8)
          */
         private $phone_number;
 
         /**
          * @var string|null
          *
-         * @ORM\Column(name="content", type="string", length=4000, nullable=true)
+         * @ORM\Column(name="content", type="string", length=4000)
          */
         private $content;
 

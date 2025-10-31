@@ -120,6 +120,11 @@ class InquiryController extends AbstractController
                     $this->inquiryService->save($Inquiry);
 
                     // Send mail
+                    $data->postal_code = false;
+                    $data->pref = false;
+                    $data->addr01 = null;
+                    $data->addr02 = null;
+                    $data->contents = $Inquiry->getContent();
                     $this->mailService->sendContactMail($data);
 
                     return $this->redirect($this->generateUrl('inquiry_complete'));

@@ -16,14 +16,14 @@ namespace Eccube\Service;
 use Doctrine\ORM\EntityManagerInterface;
 use Eccube\Entity\Inquiry;
 use Eccube\Repository\BaseInfoRepository;
-use Eccube\Repository\InquiryRespository;
+use Eccube\Repository\InquiryRepository;
 
 class InquiryService
 {
     /**
      * @var BaseInfoRepository
      */
-    protected $inquiryRespository;
+    protected $inquiryRepository;
 
     /**
      * @var EntityManagerInterface
@@ -33,12 +33,12 @@ class InquiryService
     /**
      * InquiryService constructor.
      *
-     * @param InquiryRespository $inquiryRespository
+     * @param InquiryRepository $inquiryRepository
      * @param EntityManagerInterface $entityManager
      */
-    public function __construct(InquiryRespository $inquiryRespository, EntityManagerInterface $entityManager)
+    public function __construct(InquiryRepository $inquiryRepository, EntityManagerInterface $entityManager)
     {
-        $this->inquiryRespository = $inquiryRespository;
+        $this->inquiryRepository = $inquiryRepository;
         $this->entityManager = $entityManager;
     }
 
