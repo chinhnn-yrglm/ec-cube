@@ -474,6 +474,13 @@ final class EccubeEvents
     public const FRONT_CONTACT_INDEX_COMPLETE = 'front.contact.index.complete';
 
     /**
+     * InquiryController
+     */
+    // index
+    public const FRONT_INQUIRY_INDEX_INITIALIZE = 'front.inquiry.index.initialize';
+    public const FRONT_INQUIRY_INDEX_COMPLETE = 'front.inquiry.index.complete';
+
+    /**
      * EntryController
      */
     // index
